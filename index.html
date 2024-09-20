@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <style>
+        .error {
+            color: red;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+        .success {
+            color: green;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action=""  id="validationForm">
+        <input type="text" id="number" placeholder="Номер">
+        <div class="error" id="numberError"></div>
+
+        <input type="text" id="text" placeholder="Имя">
+        <div class="error" id="textError"></div>
+
+        <input type="submit" id="otprav" value="Отправить">
+        <div class="success" id="successMessage"></div>
+    </form>
+</body>
+</html>
